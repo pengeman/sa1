@@ -1,0 +1,251 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGGrR4Ra91L6Pg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGGrR4Rad1J24k="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGGrR4Ra91M1Tc=",
+									"_parent": {
+										"$ref": "AAAAAAGGrR4Ra91L6Pg="
+									},
+									"model": {
+										"$ref": "AAAAAAGGrR4Rad1J24k="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGGrR4RbN1NEgM=",
+											"_parent": {
+												"$ref": "AAAAAAGGrR4Ra91M1Tc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGGrR4RbN1O6qM=",
+											"_parent": {
+												"$ref": "AAAAAAGGrR4Ra91M1Tc="
+											},
+											"font": "Arial;13;1",
+											"left": 333,
+											"top": 239,
+											"width": 113.08984375,
+											"height": 13,
+											"text": "Life"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGGrR4RbN1P0oI=",
+											"_parent": {
+												"$ref": "AAAAAAGGrR4Ra91M1Tc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGGrR4RbN1Qrn8=",
+											"_parent": {
+												"$ref": "AAAAAAGGrR4Ra91M1Tc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 328,
+									"top": 232,
+									"width": 123.08984375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGGrR4RbN1NEgM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGGrR4RbN1O6qM="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGGrR4RbN1P0oI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGGrR4RbN1Qrn8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGGrR4RbN1RVtY=",
+									"_parent": {
+										"$ref": "AAAAAAGGrR4Ra91L6Pg="
+									},
+									"model": {
+										"$ref": "AAAAAAGGrR4Rad1J24k="
+									},
+									"font": "Arial;13;0",
+									"left": 328,
+									"top": 257,
+									"width": 123.08984375,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGGrR4RbN1SQrw=",
+									"_parent": {
+										"$ref": "AAAAAAGGrR4Ra91L6Pg="
+									},
+									"model": {
+										"$ref": "AAAAAAGGrR4Rad1J24k="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGGrSntVd17MJc=",
+											"_parent": {
+												"$ref": "AAAAAAGGrR4RbN1SQrw="
+											},
+											"model": {
+												"$ref": "AAAAAAGGrSntQN14aes="
+											},
+											"font": "Arial;13;0",
+											"left": 333,
+											"top": 272,
+											"width": 113.08984375,
+											"height": 13,
+											"text": "+makeSuggestion()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 328,
+									"top": 267,
+									"width": 123.08984375,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGGrR4Rbd1TbNc=",
+									"_parent": {
+										"$ref": "AAAAAAGGrR4Ra91L6Pg="
+									},
+									"model": {
+										"$ref": "AAAAAAGGrR4Rad1J24k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGGrR4Rbd1UmnY=",
+									"_parent": {
+										"$ref": "AAAAAAGGrR4Ra91L6Pg="
+									},
+									"model": {
+										"$ref": "AAAAAAGGrR4Rad1J24k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 328,
+							"top": 232,
+							"width": 123.08984375,
+							"height": 58,
+							"nameCompartment": {
+								"$ref": "AAAAAAGGrR4Ra91M1Tc="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGGrR4RbN1RVtY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGGrR4RbN1SQrw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGGrR4Rbd1TbNc="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGGrR4Rbd1UmnY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGGrR4Rad1J24k=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Life",
+					"documentation": "人生,获得人生感悟,给出人生建议解答人生困惑",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGGrSntQN14aes=",
+							"_parent": {
+								"$ref": "AAAAAAGGrR4Rad1J24k="
+							},
+							"name": "makeSuggestion",
+							"documentation": "创建人生建议,这是根据人生感悟中数据,根据日记中的内容,根据备忘录中的内容自动生成"
+						}
+					]
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGGrR8P/t1zZNY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGGrR8P/910j84=",
+					"_parent": {
+						"$ref": "AAAAAAGGrR8P/t1zZNY="
+					},
+					"name": "UseCaseDiagram1"
+				}
+			]
+		}
+	]
+}
